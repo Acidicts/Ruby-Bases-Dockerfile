@@ -1,5 +1,5 @@
-# Start directly from the official Ruby 3.4.7 Debian-based image
-FROM ruby:3.4.7-bookworm
+# Start directly from the official Ruby 4.0.7 Debian-based image
+FROM ruby:4.0.7-bookworm
 
 # Configure environment variables for a non-interactive, UTF-8 environment
 ENV LANG=C.UTF-8 \
