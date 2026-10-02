@@ -4,9 +4,6 @@ on:
   push:
     branches:
       - 4.0.7
-    paths:
-      # Only rebuild when the Dockerfile itself changes
-      - "Dockerfile"
   schedule:
     # Rebuild weekly (Mondays at 02:00 UTC) to pick up upstream security patches
     - cron: "0 2 * * 1"
