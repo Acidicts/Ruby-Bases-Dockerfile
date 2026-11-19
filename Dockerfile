@@ -1,4 +1,4 @@
-FROM ruby:4.0.7-bookworm
+FROM ruby:4.0.10-bookworm
 
 ENV LANG=C.UTF-8 \
     LC_ALL=C.UTF-8 \
