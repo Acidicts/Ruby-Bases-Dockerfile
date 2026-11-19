@@ -1,6 +1,6 @@
-# Ruby-3.4.7-Dockerfile
+# Ruby-4.0.10-Dockerfile
 
-Ruby 3.4.7 (Debian Bookworm) base image with Rails/Bundler preinstalled, plus RVM for switching Ruby versions inside the container.
+Ruby 4.0.10 (Debian Bookworm) base image with Rails/Bundler preinstalled, plus RVM for switching Ruby versions inside the container.
 
 ## Build
 
